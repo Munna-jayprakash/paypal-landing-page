@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { PaypalLogo } from './PaypalLogo';
 import { ChevronDown, Menu, X } from 'lucide-react';
 import { navLinks } from '../data/staticData';
 
@@ -32,7 +31,11 @@ export const Navbar = () => {
           <div className="flex items-center space-x-8 lg:space-x-10">
             {/* Logo */}
             <a href="#" className="flex items-center flex-shrink-0" aria-label="PayPal Home">
-              <PaypalLogo className="h-8 w-auto text-[#003087]" />
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/b/b7/PayPal_Logo_Icon_2014.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+                alt="PayPal Logo"
+                className="h-8 w-auto object-contain"
+              />
             </a>
 
             {/* Desktop Navigation Links */}

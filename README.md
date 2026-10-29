@@ -62,8 +62,7 @@ Paypal/
 │   ├── components/
 │   │   ├── Footer.jsx
 │   │   ├── Hero.jsx
-│   │   ├── Navbar.jsx
-│   │   └── PaypalLogo.jsx
+│   │   └── Navbar.jsx
 │   ├── data/
 │   │   └── staticData.js
 │   ├── App.jsx
