@@ -30,31 +30,24 @@ A pixel-perfect single-page React implementation of the PayPal landing page matc
 - npm or yarn
 
 ### Installation
-
 1. Clone the repository:
    ```bash
    git clone <your-repo-link>
    cd Paypal
    ```
-
 2. Install dependencies:
    ```bash
    npm install
    ```
-
 3. Start development server:
    ```bash
    npm run dev
    ```
-
 4. Build for production:
    ```bash
    npm run build
    ```
-
 ## Project Structure
-
-```
 Paypal/
 ├── public/
 │   └── paypal-icon.svg
@@ -73,4 +66,5 @@ Paypal/
 ├── tailwind.config.js
 ├── vite.config.js
 └── README.md
-```
+
+MUNNA THAKUR
