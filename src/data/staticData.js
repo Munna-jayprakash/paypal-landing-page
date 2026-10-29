@@ -1,38 +1,8 @@
 export const navLinks = [
-  {
-    title: "Personal",
-    items: [
-      { name: "How PayPal Works", desc: "What you can do with a personal account" },
-      { name: "Pay Online", desc: "Shop securely without sharing card details" },
-      { name: "Send Money", desc: "Send payments to friends and family worldwide" },
-      { name: "PayPal App", desc: "Manage your money anytime on mobile" },
-    ]
-  },
-  {
-    title: "Business",
-    items: [
-      { name: "All Business Solutions", desc: "Explore tools to grow your business" },
-      { name: "Accept Payments", desc: "Online checkout, POS, and recurring billing" },
-      { name: "Make Payments", desc: "Payouts to freelancers and international suppliers" },
-      { name: "Risk & Security", desc: "Advanced fraud protection and dispute management" },
-    ]
-  },
-  {
-    title: "Partners",
-    items: [
-      { name: "Partner Directory", desc: "Find platforms and ecommerce integrations" },
-      { name: "Developer Documentation", desc: "REST APIs, SDKs, and developer sandbox" },
-      { name: "Enterprise Integrations", desc: "Tailored solutions for large-scale operations" },
-    ]
-  },
-  {
-    title: "Useful Info",
-    items: [
-      { name: "Help Center", desc: "Get fast answers and customer assistance" },
-      { name: "Security & Protection", desc: "How PayPal protects your transactions" },
-      { name: "Fees & Pricing", desc: "Transparent rates for business and consumer" },
-    ]
-  }
+  { title: "Personal" },
+  { title: "Business" },
+  { title: "Partners" },
+  { title: "Useful Info" },
 ];
 
 export const heroContent = {
